@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="API.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+    <title>API</title>
+    <script>
+      $(document).ready(function( data){
+        $.get(url, function(data, status){
+          alert()
+        }
+      }
+    </script>
+  </head>
+  <body>
+    
+      
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <script src="curl -d "grant_type=client_credentials&client_id =L03WwHz6kcjdshwNhU0iBaGIVzCuV4jLSXfPDOBYS01KeTrR5h & client_secret=JSAEiVfmxktfdlvMQKuSHO8ltzUzNyy8YtuOL757" https://api.petfinder.com/v2/oauth2/token"></script>    
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+        <div class="container-fluid" style="border: 10px; margin: 20px;">
+          <a class="navbar-brand" href="#">Resucue Shelter</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="bar-links">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Dontate</a>
+              </li>
+              
+            </ul>
+            <!-- <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Type of Dogs" l="Search">
+              <button class="btn btn-outline-danger" type="submit">Search</button>
+            </form>
+          </div>
+        </div> -->
+    </nav>
+
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+        <img class="locked-up" src="locked up.jpg" alt="a" width="1600" height="500">
+        <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+          <!-- <h1 class="h1">Bring LOVE Home</h1> -->
+        </div>
+    </header><br><br>
+
+    <div class="w3-row w3-padding-3" id="about"> 
+      <div class="w3-col m6 w3-padding-large w3-hide-small">
+      <img src="puppy.jpg" class="puppy" alt="locked locked-up2" width="510" height="750">
+      </div>
+      <div class="w3-col m6 w3-padding-large" id="love">
+        <h1 class="w3-center" id=love1>We are spreding love</h1><br>
+        <h5 class="w3-center" id=love1>est. 1889</h5>
+        <h4 class="w3-center" id=love1>Advantages of Adopting Animals from Shelters</h4><br>
+        <p class="w3-large" id=love1>
+          Shelter Animal is the best place for adopting any kind of animal. There are various animals in these centers and this makes them the most reliable place to get an animal. You have made a decision to welcome a new pet in your homestead? Shelters have all shapes and sizes of adorable mutts, all-American cats, purebreds, puppies adolescent and seniors. Chances of getting a wonderful companion who suits your lifestyle, family and home are just perfect. The has been many myths and misconceptions about adopting animals from shelter which include: you really do not know what you are getting in terms of behavior of the animal, thinking that the pets are in shelters as they did not make good pets, animals being given up due to allergies, owner having own problems, allergies and lack of capital for their upkeep. Despite these myths, there are many good reasons why we should adopt animals from shelters other than buying them (Freedman, 2009, p.72).
+        </p>
+      </div>
+    </div><br>
+    <container class="cards">
+      <div class="card"style="width: 25rem;">
+          <img src="pit.jpg" class="card-img-top" alt="pit">
+          <div class="card-body">
+            <h5 class="card-title">Molly and Dolly</h5>
+            <p class="card-text">Molly and Dolly are 1 year old pit bull sisters. They loves to run and play. They are very good with children and other dogs.</p>
+            <a href="#" class="btn btn-primary">Adopt Molly</a>
+          </div>
+      </div>
+          <div class="card" style="width: 25rem;">
+            <img src="jumper.jpg" class="card-img-top" alt="jump">
+            <div class="card-body">
+              <h5 class="card-title">Jumper</h5>
+              <p class="card-text">Jumper is a 2 year old mixed breed. He loves to jump and play outside. He does will with small anamials.</p>
+              <a href="#" class="btn btn-primary">Adopt Jumper</a>
+          </div>
+        </div>
+          <div class="card" style="width: 25rem;">
+            <img src="echo.jpg" class="card-img-top" alt="echo">
+            <div class="card-body">
+              <h5 class="card-title">Echo</h5>
+              <p class="card-text">Echo is a 3 year old seppered mix. She is very calm. She enjoys naps and relaxing strools in the park.</p>
+              <a href="#" class="btn btn-primary">Adopt Echo</a>
+          </div>
+        </div>
+    </container><br> 
+    <div class="w3-container w3-padding-64" id="contact">
+        
+      <h1 class="w3-input w3-padding 40">Please Sign up for More Information</h1><br>
+        <img src="locked up2.jpg" class="lu2" alt="lu2">
+        <!-- <p class="w3-text-blue-grey w3-large"><b>Volunteer out of our home office in San Antonio</b></p> -->
+        <p>PLEASE help us, help these loving animals. Fill out this information sheet to be a part of your mailing list.</p>
+      <form action="/action_page.php" id= 'form' target="_blank">
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="would you like to volenteer or just Dontate?" required name="name "></p>
+        <p><input class="w3-input w3-padding-16" type="number" placeholder="How many Dogs would you like to support" required name="number "></p>         <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special request or questions" required name="Message"></p>
+        <p><button class="w3-button w3-sucess w3-section" type="submit">Submit</button></p>
+      </form>
+    </div>
+  </body>
+</html>
